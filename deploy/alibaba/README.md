@@ -1,5 +1,13 @@
 # Deploy to Alibaba Cloud ECS (hackathon target)
 
+**Live deployment:** the hackathon backend runs on ECS instance
+`i-t4napguee3ywqzzqpy4y` (`ecs.e-c1m2.large`, Ubuntu 22.04, ap-southeast-1a) —
+ops dashboard at https://subjugable-alecia-trifacial.ngrok-free.dev (Basic Auth).
+Provisioned entirely via the Alibaba Cloud CLI: see [`provision.sh`](provision.sh).
+Model APIs (Qwen chat + Wan text-to-video) are Alibaba Cloud Model Studio
+endpoints — clients in [`lib/qwen.py`](../../lib/qwen.py) and
+[`lib/wan.py`](../../lib/wan.py).
+
 Runs ShowPilot 24/7 on an Alibaba Cloud ECS instance: daily auto-posting (cron),
 the dashboard, and the ngrok fixed-URL tunnel — surviving reboots via systemd.
 Reuses the generic Linux bundle in `deploy/` (bootstrap + systemd units).
