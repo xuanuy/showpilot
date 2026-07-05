@@ -11,3 +11,7 @@ channels/*/footage/*
 *.mp4
 assets/branding/
 .DS_Store
+demo/vo/
+demo/rec/
+demo/seg/
+demo/showpilot-demo.mp4
