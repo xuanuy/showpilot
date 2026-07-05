@@ -1,0 +1,15 @@
+[Unit]
+Description=Donghua Pipeline Dashboard
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=__USER__
+WorkingDirectory=__PROJ__
+Environment=PATH=__HOME__/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/python3 __PROJ__/dashboard.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

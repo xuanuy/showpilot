@@ -1,0 +1,54 @@
+{
+  "tools": {
+    "ffmpeg": "/home/xuanuy/.local/bin/ffmpeg",
+    "ffprobe": "/home/xuanuy/.local/bin/ffprobe",
+    "piper": "/home/xuanuy/.local/bin/piper",
+    "piper_voice": "/home/xuanuy/.local/opt/piper-voices/en_US-ryan-high.onnx"
+  },
+  "reel": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "max_seconds": 90,
+    "orig_audio_volume": 0.12,
+    "voice_volume": 1.7,
+    "bg_blur": 22
+  },
+  "captions": {
+    "font_dir": "/usr/share/fonts/truetype/dejavu",
+    "font_name": "DejaVu Sans",
+    "font_size": 66,
+    "max_words_per_caption": 6,
+    "primary_color": "&H00FFFFFF",
+    "outline_color": "&H00000000",
+    "outline": 4,
+    "shadow": 2,
+    "margin_v": 300
+  },
+  "script": {
+    "target_words": 130,
+    "model": "claude-sonnet-4-6"
+  },
+  "qwen": {
+    "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+    "model": "qwen3.7-plus"
+  },
+  "wan": {
+    "base_url": "https://dashscope-intl.aliyuncs.com/api/v1",
+    "model": "wan2.6-t2v",
+    "resolution": "720P",
+    "ratio": "9:16",
+    "max_scenes": 6,
+    "max_scene_seconds": 8,
+    "poll_seconds": 15,
+    "timeout_seconds": 900
+  },
+  "facebook": {
+    "graph_version": "v21.0",
+    "publish_state": "PUBLISHED"
+  },
+  "boost": {
+    "first_comment": true,
+    "share_to_story": true
+  }
+}

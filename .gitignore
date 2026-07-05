@@ -1,0 +1,13 @@
+secrets.env
+cron.log
+__pycache__/
+*.pyc
+channels/*/build/
+channels/*/output/
+channels/*/footage/*
+!channels/*/footage/README.txt
+*.posted.json
+*.wav
+*.mp4
+assets/branding/
+.DS_Store

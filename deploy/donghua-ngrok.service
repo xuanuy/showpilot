@@ -1,0 +1,15 @@
+[Unit]
+Description=Donghua ngrok tunnel (fixed URL -> dashboard)
+After=donghua-dashboard.service network-online.target
+Wants=network-online.target
+
+[Service]
+User=__USER__
+WorkingDirectory=__PROJ__
+Environment=PATH=__HOME__/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=__PROJ__/deploy/run-ngrok.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

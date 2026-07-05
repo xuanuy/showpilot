@@ -1,0 +1,67 @@
+{
+  "channels": [
+    {
+      "id": "donghua-decoded",
+      "name": "Donghua Decoded",
+      "handle": "@donghuadecoded",
+      "category": "Video Creator",
+      "bio": "We don't just show donghua \u2014 we explain it. Deep takes on cultivation anime, characters & power systems. Commentary that actually says something."
+    },
+    {
+      "id": "qi-and-swords",
+      "name": "Qi & Swords",
+      "handle": "@qiandswords",
+      "category": "Video Creator",
+      "bio": "Cultivation anime, but make it ACTION. Best fights, power scaling & glow-ups in donghua & xianxia. Who wins? You decide in the comments."
+    },
+    {
+      "id": "donghua-realm",
+      "name": "Donghua Realm",
+      "handle": "@donghuarealm",
+      "category": "Video Creator",
+      "bio": "Your home for the best Chinese anime. Daily donghua & xianxia breakdowns, edits, and takes. New Reel every day. Follow if cultivation > everything."
+    },
+    {
+      "id": "xianxia-daily",
+      "name": "Xianxia Daily",
+      "handle": "@xianxiadaily",
+      "category": "Media/News Company",
+      "bio": "Daily xianxia & cultivation anime \u2014 news, scenes, and hot takes in 60 seconds. Han Li, Xiao Yan, Ye Fan & more. Tap follow, level up daily."
+    },
+    {
+      "id": "cultivation-chronicles",
+      "name": "Cultivation Chronicles",
+      "handle": "@cultivationchronicles",
+      "category": "Entertainment Website",
+      "bio": "The stories behind the strongest. Lore, world-building & character arcs from your favorite donghua & xianxia. For fans who love the deep cut."
+    },
+    {
+      "id": "immortal-path",
+      "name": "Immortal Path",
+      "handle": "@immortalpathtv",
+      "category": "Video Creator",
+      "bio": "Following the journey from mortal to immortal. Character deep-dives on Han Li, Wang Lin, Shi Hao & the rest. The grind never stops."
+    },
+    {
+      "id": "dao-of-donghua",
+      "name": "The Dao of Donghua",
+      "handle": "@daoofdonghua",
+      "category": "Video Creator",
+      "bio": "New to Chinese anime? Start here. Beginner-friendly guides, rankings & where-to-start for every cultivation series. No spoilers, just the way in."
+    },
+    {
+      "id": "heavenly-donghua",
+      "name": "Heavenly Donghua",
+      "handle": "@heavenlydonghua",
+      "category": "Entertainment Website",
+      "bio": "The most beautiful frames in Chinese animation. Cinematic donghua & xianxia edits. If it looks like a painting, it's here."
+    },
+    {
+      "id": "life-stories",
+      "name": "Quiet Life Stories",
+      "handle": "@quietlifestories",
+      "category": "Video Creator",
+      "bio": "Short heartwarming stories with a lesson. One quiet tale a day to reset your evening."
+    }
+  ]
+}
