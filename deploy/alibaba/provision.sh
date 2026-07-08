@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Provision the ShowPilot backend on Alibaba Cloud ECS via the aliyun CLI.
 # These are the exact calls used to create the live hackathon instance
-# (i-t4napguee3ywqzzqpy4y, ap-southeast-1a, 8.222.216.29 — dashboard at
+# (i-t4nahwvwjumrnkdbr23t, ap-southeast-1a, 43.98.184.78 — dashboard at
 # https://subjugable-alecia-trifacial.ngrok-free.dev behind Basic Auth).
 #
 # Prereqs: aliyun CLI (https://github.com/aliyun/aliyun-cli) configured with a
